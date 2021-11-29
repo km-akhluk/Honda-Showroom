@@ -1,0 +1,17 @@
+hr.rounded {
+    border-top: 5px solid #bbb;
+    border-radius: 5px;
+    width: 50px;
+  }
+
+  .f-image img{
+    filter: grayscale(100%);
+    transition: 0.3s ease-in-out;
+
+  }
+
+  .f-image:hover img{
+    filter: brightness(1) grayscale(0);
+
+  }
+
